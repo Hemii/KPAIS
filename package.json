@@ -1,0 +1,16 @@
+{
+    "name": "4cvicenie",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "cypress": "^8.6.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "cypress open"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
