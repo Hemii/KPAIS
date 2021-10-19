@@ -49,7 +49,7 @@ describe('www.google.sk', () => {
         cy.get('.aajZCb > .lJ9FBc > center > .gNO89b').click();
 
         cy.get('input.gLFyf').invoke('val').should('not.be.empty');
-        cy.get('input.gLFyf').invoke('val').should('include', 'cat');
+        cy.get('input.gLFyf').invoke('val').should('eq', 'cat');
     })
 
 })
